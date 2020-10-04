@@ -1,4 +1,7 @@
 # Book Management
+```kotlin
+Author: Nguyen Cong Dung - 17103487 - PM22.05
+```
 
 ## Features
 ✅ Store data to SQL and view in app  
