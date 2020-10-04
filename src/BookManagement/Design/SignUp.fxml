@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="scene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@styles/base.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BookManagement.SignUp">
+   <children>
+      <TextField fx:id="tfUsername" layoutX="190.0" layoutY="149.0" prefHeight="25.0" prefWidth="220.0" />
+      <PasswordField fx:id="tfPassword" layoutX="191.0" layoutY="208.0" prefHeight="25.0" prefWidth="220.0" />
+      <PasswordField fx:id="tfRePassword" layoutX="190.0" layoutY="269.0" prefHeight="25.0" prefWidth="220.0" />
+      <Label id="header" alignment="CENTER" layoutX="200.0" layoutY="38.0" prefHeight="54.0" prefWidth="184.0" text="Sign up" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="216.0">
+         <font>
+            <Font name="Segoe UI Bold" size="46.0" />
+         </font>
+      </Label>
+      <Label layoutX="192.0" layoutY="131.0" text="Username" />
+      <Label layoutX="193.0" layoutY="190.0" text="Password" />
+      <Label layoutX="192.0" layoutY="250.0" text="Comfirm password" />
+      <Button fx:id="btnSignUp" layoutX="224.0" layoutY="333.0" mnemonicParsing="false" onAction="#signUp" text="Create Account">
+         <padding>
+            <Insets bottom="5.0" left="35.0" right="35.0" top="5.0" />
+         </padding>
+      </Button>
+   </children>
+</AnchorPane>

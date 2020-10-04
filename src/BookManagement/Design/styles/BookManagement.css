@@ -1,0 +1,30 @@
+.root {
+    -fx-background-color: #fff;
+}
+
+.button {
+    -fx-text-fill: #fff;
+}
+
+#add {
+    -fx-background-color: #2C9755;
+}
+#edit {
+    -fx-background-color: #EC8F20;
+}
+#delete {
+    -fx-background-color: #D92B36;
+}
+
+.text-field {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 1 -1 1, 0 0 0 0, 0 -1 3 -1;
+}
+.text-field:focused {
+    -fx-background-color: #amdin , white , white;
+    -fx-background-insets: 0 1 -1 1, 0 0 0 0, 0 -1 3 -1;
+}
+
+.username {
+    -fx-text-fill: #201e47;
+}
